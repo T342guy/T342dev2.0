@@ -1,9 +1,10 @@
 import { useState } from "react";
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Mail, Phone, Calendar, MessageSquare, MessageCircle, Linkedin, Github, Twitter, ArrowRight, Send, Globe, Smartphone } from "lucide-react";
+import { Mail, MessageSquare, Github, Twitter, ArrowRight } from "lucide-react";
 
 import { toast } from "sonner";
 
