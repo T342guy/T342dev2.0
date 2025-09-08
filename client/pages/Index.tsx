@@ -36,15 +36,10 @@ export default function Index() {
           <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(50%_50%_at_50%_0%,hsl(var(--primary)/.18)_0%,transparent_60%)]" />
           <div className="container grid gap-10 py-16 md:grid-cols-2 md:gap-16 md:py-24">
             <div className="flex flex-col justify-center">
-              <p className="mb-3 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-primary"><span className="h-2 w-2 rounded-full bg-primary"/> Available for work</p>
               <h1 className="text-balance text-4xl font-extrabold tracking-tight md:text-6xl">Hey there! I am T342!</h1>
               <p className="mt-4 max-w-prose text-muted-foreground md:text-lg">Hey hey! Nice to see you poppin by my website!</p>
               <div className="mt-6 flex flex-wrap items-center gap-3">
                 <a href="mailto:T342guy@proton.me"><Button size="lg" className="gap-2"><Mail className="size-4"/> Email me</Button></a>
-              </div>
-              <div className="mt-6 flex flex-wrap gap-4 text-sm text-muted-foreground">
-                <a className="inline-flex items-center gap-2 hover:text-foreground" href="https://github.com/nathanj" target="_blank" rel="noreferrer"><Github className="size-4"/> GitHub</a>
-                <a className="inline-flex items-center gap-2 hover:text-foreground" href="https://x.com/nathanjohnson" target="_blank" rel="noreferrer"><Twitter className="size-4"/> X</a>
               </div>
             </div>
             <div className="relative">
