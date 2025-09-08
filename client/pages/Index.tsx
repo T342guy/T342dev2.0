@@ -89,13 +89,13 @@ export default function Index() {
             thought?
           </p>
           <p>
-            I am an avid gamer, hobby programmer, and whatever else my
-            ADHD says is the next new revolutionary thing around
+            I am an avid gamer, hobby programmer, and whatever else my ADHD says
+            is the next new revolutionary thing around
           </p>
           <p>
-            I play a wide range of games. But mainly an extremely avid
-            THE FINALS player, and a VALVe gaming fan! (half-life 2,
-            black mesa, portal 2, so fourth!)
+            I play a wide range of games. But mainly an extremely avid THE
+            FINALS player, and a VALVe gaming fan! (half-life 2, black mesa,
+            portal 2, so fourth!)
           </p>
           <p>I also spend a lot of money on TF2... for no reason. </p>
         </div>
@@ -263,8 +263,7 @@ export default function Index() {
                   </CardTitle>
                   <CardDescription>
                     <p>
-                      My github! The one and only place for my terrible
-                      code
+                      My github! The one and only place for my terrible code
                     </p>
                   </CardDescription>
                 </CardHeader>
