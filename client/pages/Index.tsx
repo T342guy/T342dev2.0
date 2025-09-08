@@ -131,7 +131,7 @@ export default function Index() {
                 <Card>
                   <CardHeader>
                     <CardTitle className="inline-flex items-center gap-2"><Twitch className="size-5 text-primary"/> Twitch</CardTitle>
-                    <CardDescription>Live streams and chat.</CardDescription>
+                    <CardDescription><p>Live streams! If I ever get to them...</p></CardDescription>
                   </CardHeader>
                   <CardContent>
                     <a href="https://www.twitch.tv/T342guy" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">twitch.tv/T342guy <ArrowRight className="size-4"/></a>
