@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useLocation as useRouterLocation } from "react-router-dom";
 
 const NotFound = () => {
-  const location = useLocation();
+  const location = useRouterLocation();
 
   useEffect(() => {
     console.error(
