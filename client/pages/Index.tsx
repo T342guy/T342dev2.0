@@ -5,7 +5,6 @@ import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Mail, Phone, Calendar, MessageSquare, MessageCircle, Linkedin, Github, Twitter, ArrowRight, Send, Globe, Smartphone } from "lucide-react";
 
-import { useState } from "react";
 import { toast } from "sonner";
 
 export default function Index() {
