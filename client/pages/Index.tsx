@@ -111,7 +111,7 @@ export default function Index() {
                 <Card>
                   <CardHeader>
                     <CardTitle className="inline-flex items-center gap-2"><Gamepad className="size-5 text-primary"/> Steam</CardTitle>
-                    <CardDescription>Gaming profile and groups.</CardDescription>
+                    <CardDescription><p>My steam account, For no reason... That is unless you spend money on TF2 like a madman.</p></CardDescription>
                   </CardHeader>
                   <CardContent>
                     <a href="https://steamcommunity.com/id/T342guy" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">steamcommunity.com/id/T342guy <ArrowRight className="size-4"/></a>
