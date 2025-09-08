@@ -79,8 +79,8 @@ export default function Index() {
           <div className="container">
             <div className="mb-10 flex flex-col items-start justify-between gap-6 md:mb-14 md:flex-row md:items-end">
               <div>
-                <h2 className="text-2xl font-bold tracking-tight md:text-3xl">Let\'s talk</h2>
-                <p className="mt-2 max-w-prose text-muted-foreground">Choose any channel that works best for you. I\'m quick to respond.</p>
+                <h2 className="text-2xl font-bold tracking-tight md:text-3xl">Wanna reach out?</h2>
+                <p className="mt-2 max-w-prose text-muted-foreground">Email. hmm yes...</p>
               </div>
               <div className="flex gap-3">
                 <a href="mailto:T342guy@proton.me"><Button className="gap-2"><Mail className="size-4"/> Email</Button></a>
@@ -91,7 +91,7 @@ export default function Index() {
               <Card>
                 <CardHeader>
                   <CardTitle className="inline-flex items-center gap-2"><Mail className="size-5 text-primary"/> Email</CardTitle>
-                  <CardDescription>Best for detailed messages and proposals.</CardDescription>
+                  <CardDescription><p>If you wanna contact me, go right ahead! I can respond when I can!</p></CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-3">
                   <a href="mailto:T342guy@proton.me" className="block text-sm font-medium hover:underline">T342guy@proton.me</a>
@@ -102,38 +102,69 @@ export default function Index() {
             {/* Accounts section (separate) */}
             <section id="accounts" className="mt-12">
               <h3 className="text-lg font-semibold mb-4">Accounts</h3>
-              <div className="grid gap-6 md:grid-cols-2">
+              <div className="grid gap-6 md:grid-cols-3">
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="inline-flex items-center gap-2"><Twitter className="size-5 text-primary"/> X (Twitter)</CardTitle>
+                    <CardDescription>Short updates and DMs.</CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <a href="https://x.com/T342guy" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">x.com/T342guy <ArrowRight className="size-4"/></a>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="inline-flex items-center gap-2">Steam</CardTitle>
+                    <CardDescription>Gaming profile and groups.</CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <a href="https://steamcommunity.com/id/T342guy" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">steamcommunity.com/id/T342guy <ArrowRight className="size-4"/></a>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="inline-flex items-center gap-2">YouTube</CardTitle>
+                    <CardDescription>Video content and streams.</CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <a href="https://www.youtube.com/channel/UCC2PYQVdiFAwE5927TPuVlA" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">youtube.com/channel/UCC2PYQVdiFAwE5927TPuVlA <ArrowRight className="size-4"/></a>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="inline-flex items-center gap-2">Twitch</CardTitle>
+                    <CardDescription>Live streams and chat.</CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <a href="https://www.youtube.com/channel/UCC2PYQVdiFAwE5927TPuVlA" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">twitch.tv/T342guy <ArrowRight className="size-4"/></a>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="inline-flex items-center gap-2">Reddit</CardTitle>
+                    <CardDescription>Community posts and discussions.</CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <a href="https://www.reddit.com/user/T342games" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">reddit.com/user/T342games <ArrowRight className="size-4"/></a>
+                  </CardContent>
+                </Card>
+
                 <Card>
                   <CardHeader>
                     <CardTitle className="inline-flex items-center gap-2"><Github className="size-5 text-primary"/> GitHub</CardTitle>
                     <CardDescription>Code, projects, and contributions.</CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <a href="https://github.com/nathanj" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">github.com/nathanj <ArrowRight className="size-4"/></a>
-                  </CardContent>
-                </Card>
-                <Card>
-                  <CardHeader>
-                    <CardTitle className="inline-flex items-center gap-2"><Twitter className="size-5 text-primary"/> X (Twitter)</CardTitle>
-                    <CardDescription>DMs are open for quick questions.</CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <a href="https://x.com/nathanjohnson" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">x.com/nathanjohnson <ArrowRight className="size-4"/></a>
+                    <a href="https://github.com/T342guy" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">github.com/T342guy <ArrowRight className="size-4"/></a>
                   </CardContent>
                 </Card>
               </div>
             </section>
 
-            <div className="mt-10">
-              <div className="rounded-xl border bg-card p-6 max-w-lg">
-                <h3 className="text-xl font-semibold tracking-tight">Response times</h3>
-                <p className="mt-2 text-sm text-muted-foreground">I typically respond within 24 hours on weekdays.</p>
-                <ul className="mt-4 space-y-2 text-sm">
-                  <li className="inline-flex items-center gap-2"><Mail className="size-4 text-primary"/> 24h or less</li>
-                  <li className="inline-flex items-center gap-2"><MessageSquare className="size-4 text-primary"/> Within a few hours</li>
-                </ul>
-              </div>
-            </div>
           </div>
         </section>
     </main>
