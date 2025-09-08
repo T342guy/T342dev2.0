@@ -17,8 +17,8 @@ export default function Footer() {
         <div>
           <div className="mb-3 text-sm font-semibold uppercase tracking-wider text-muted-foreground">Profiles</div>
           <ul className="space-y-2 text-sm">
-            <li><a className="inline-flex items-center gap-2 hover:text-foreground" href="https://github.com/nathanj" target="_blank" rel="noreferrer"><Github className="size-4"/> github.com/nathanj</a></li>
-            <li><a className="inline-flex items-center gap-2 hover:text-foreground" href="https://x.com/nathanjohnson" target="_blank" rel="noreferrer"><Twitter className="size-4"/> x.com/nathanjohnson</a></li>
+            <li><a className="inline-flex items-center gap-2 hover:text-foreground" href="https://github.com/T342guy" target="_blank" rel="noreferrer"><Github className="size-4"/> github.com/T342guy</a></li>
+            <li><a className="inline-flex items-center gap-2 hover:text-foreground" href="https://x.com/T342guy" target="_blank" rel="noreferrer"><Twitter className="size-4"/> x.com/T342guy</a></li>
           </ul>
         </div>
       </div>
