@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Mail, MessageSquare, Github, Twitter, ArrowRight } from "lucide-react";
+import { Mail, MessageSquare, Github, Twitter, ArrowRight, Gamepad, Youtube, Twitch, Globe } from "lucide-react";
 
 import { toast } from "sonner";
 
@@ -115,7 +115,7 @@ export default function Index() {
 
                 <Card>
                   <CardHeader>
-                    <CardTitle className="inline-flex items-center gap-2">Steam</CardTitle>
+                    <CardTitle className="inline-flex items-center gap-2"><Gamepad className="size-5 text-primary"/> Steam</CardTitle>
                     <CardDescription>Gaming profile and groups.</CardDescription>
                   </CardHeader>
                   <CardContent>
@@ -125,7 +125,7 @@ export default function Index() {
 
                 <Card>
                   <CardHeader>
-                    <CardTitle className="inline-flex items-center gap-2">YouTube</CardTitle>
+                    <CardTitle className="inline-flex items-center gap-2"><Youtube className="size-5 text-primary"/> YouTube</CardTitle>
                     <CardDescription>Video content and streams.</CardDescription>
                   </CardHeader>
                   <CardContent>
@@ -135,17 +135,17 @@ export default function Index() {
 
                 <Card>
                   <CardHeader>
-                    <CardTitle className="inline-flex items-center gap-2">Twitch</CardTitle>
+                    <CardTitle className="inline-flex items-center gap-2"><Twitch className="size-5 text-primary"/> Twitch</CardTitle>
                     <CardDescription>Live streams and chat.</CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <a href="https://www.youtube.com/channel/UCC2PYQVdiFAwE5927TPuVlA" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">twitch.tv/T342guy <ArrowRight className="size-4"/></a>
+                    <a href="https://www.twitch.tv/T342guy" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">twitch.tv/T342guy <ArrowRight className="size-4"/></a>
                   </CardContent>
                 </Card>
 
                 <Card>
                   <CardHeader>
-                    <CardTitle className="inline-flex items-center gap-2">Reddit</CardTitle>
+                    <CardTitle className="inline-flex items-center gap-2"><Globe className="size-5 text-primary"/> Reddit</CardTitle>
                     <CardDescription>Community posts and discussions.</CardDescription>
                   </CardHeader>
                   <CardContent>
