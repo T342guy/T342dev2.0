@@ -4,9 +4,19 @@
  * and/or small pure JS functions that can be used on both client and server
  */
 
-/**
- * Example response type for /api/demo
- */
 export interface DemoResponse {
   message: string;
+}
+
+export interface ContactRequest {
+  name: string;
+  email: string;
+  message: string;
+  subject?: string;
+  source?: string;
+}
+
+export interface ContactResponse {
+  ok: boolean;
+  received: boolean;
 }
