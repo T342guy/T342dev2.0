@@ -4,9 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Mail, Phone, Calendar, MessageSquare, MessageCircle, Linkedin, Github, Twitter, ArrowRight, Send, Globe, Smartphone } from "lucide-react";
-import Header from "@/components/site/Header";
-import Footer from "@/components/site/Footer";
-import ContactDock from "@/components/site/ContactDock";
+
 import { toast } from "sonner";
 
 export default function Index() {
