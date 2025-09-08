@@ -121,7 +121,7 @@ export default function Index() {
                 <Card>
                   <CardHeader>
                     <CardTitle className="inline-flex items-center gap-2"><Youtube className="size-5 text-primary"/> YouTube</CardTitle>
-                    <CardDescription>Video content and streams.</CardDescription>
+                    <CardDescription><p>My youtube channel!</p></CardDescription>
                   </CardHeader>
                   <CardContent>
                     <a href="https://www.youtube.com/channel/UCC2PYQVdiFAwE5927TPuVlA" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">youtube.com/channel/UCC2PYQVdiFAwE5927TPuVlA <ArrowRight className="size-4"/></a>
