@@ -101,7 +101,7 @@ export default function Index() {
                 <Card>
                   <CardHeader>
                     <CardTitle className="inline-flex items-center gap-2"><Twitter className="size-5 text-primary"/> X (Twitter)</CardTitle>
-                    <CardDescription>Short updates and DMs.</CardDescription>
+                    <CardDescription><p>Just twitter. Also somehow a dumpsterfire.</p></CardDescription>
                   </CardHeader>
                   <CardContent>
                     <a href="https://x.com/T342guy" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">x.com/T342guy <ArrowRight className="size-4"/></a>
