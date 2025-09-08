@@ -89,9 +89,15 @@ export default function Index() {
             thought?
           </p>
           <p>
-            I am an avid gamer, hobby programmer, and whatever else my ADHD says
-            is the next new revolutionary thing around
+            I am an avid gamer, hobby programmer, and whatever else my
+            ADHD says is the next new revolutionary thing around
           </p>
+          <p>
+            I play a wide range of games. But mainly an extremely avid
+            THE FINALS player, and a VALVe gaming fan! (half-life 2,
+            black mesa, portal 2, so fourth!)
+          </p>
+          <p>I also spend a lot of money on TF2... for no reason. </p>
         </div>
       </section>
 
@@ -169,7 +175,7 @@ export default function Index() {
                   <CardDescription>
                     <p>
                       My steam account, For no reason... That is unless you
-                      spend money on TF2 like a madman.
+                      spend money on TF2 like a madman. (like myself)
                     </p>
                   </CardDescription>
                 </CardHeader>
@@ -235,7 +241,7 @@ export default function Index() {
                     <Globe className="size-5 text-primary" /> Reddit
                   </CardTitle>
                   <CardDescription>
-                    Community posts and discussions.
+                    <p>I dont remember the last time I used it</p>
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -256,7 +262,10 @@ export default function Index() {
                     <Github className="size-5 text-primary" /> GitHub
                   </CardTitle>
                   <CardDescription>
-                    Code, projects, and contributions.
+                    <p>
+                      My github! The one and only place for my terrible
+                      code
+                    </p>
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
