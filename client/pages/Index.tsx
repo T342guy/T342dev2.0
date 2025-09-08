@@ -63,24 +63,7 @@ export default function Index() {
               Hey hey! Nice to see you poppin by my website!
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-3">
-              <a href="mailto:T342guy@proton.me">
-                <Button size="lg" className="gap-2">
-                  <Mail className="size-4" /> Email me
-                </Button>
-              </a>
-            </div>
-          </div>
-          <div className="relative">
-            <div className="mx-auto h-72 w-72 rounded-2xl bg-gradient-to-br from-primary to-accent p-1 shadow-xl ring-1 ring-black/5 md:ml-auto md:h-96 md:w-96">
-              <div className="h-full w-full rounded-2xl bg-background p-6">
-                <div className="flex h-full w-full flex-col items-center justify-center rounded-xl border bg-card text-center">
-                  <span className="text-7xl">👋</span>
-                  <p className="mt-2 text-sm text-muted-foreground">
-                    Hey there, I\'m T342!
-                  </p>
-                  <p className="text-lg font-semibold">Designer & Engineer</p>
-                </div>
-              </div>
+              <a href="mailto:T342guy@proton.me" />
             </div>
           </div>
         </div>
@@ -125,11 +108,7 @@ export default function Index() {
               </p>
             </div>
             <div className="flex gap-3">
-              <a href="mailto:T342guy@proton.me">
-                <Button className="gap-2">
-                  <Mail className="size-4" /> Email
-                </Button>
-              </a>
+              <a href="mailto:T342guy@proton.me" />
             </div>
           </div>
 
