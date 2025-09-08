@@ -14,12 +14,6 @@ export default function Header() {
             About
           </a>
           <a
-            href="#work"
-            className="text-sm text-muted-foreground hover:text-foreground"
-          >
-            Work
-          </a>
-          <a
             href="#contact"
             className="text-sm text-muted-foreground hover:text-foreground"
           >
