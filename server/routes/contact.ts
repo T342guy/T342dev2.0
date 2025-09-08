@@ -12,7 +12,9 @@ const schema = z.object({
 export const handleContact: RequestHandler = (req, res) => {
   const parse = schema.safeParse(req.body);
   if (!parse.success) {
-    return res.status(400).json({ error: "Invalid request", issues: parse.error.issues });
+    return res
+      .status(400)
+      .json({ error: "Invalid request", issues: parse.error.issues });
   }
   const payload = parse.data;
 
