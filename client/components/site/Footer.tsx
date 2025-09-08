@@ -1,4 +1,4 @@
-import { Mail, Github, Twitter, MapPin } from "lucide-react";
+import { Mail, Github, Twitter, Youtube, Twitch, Gamepad, Reddit, MapPin } from "lucide-react";
 
 export default function Footer() {
   return (
