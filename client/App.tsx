@@ -37,4 +37,12 @@ const App = () => {
   );
 };
 
-createRoot(document.getElementById("root")!).render(<App />);
+const rootEl = document.getElementById("root")!;
+// Avoid calling createRoot multiple times across hot reloads or duplicate script loads
+if ((window as any).__REACT_ROOT) {
+  (window as any).__REACT_ROOT.render(<App />);
+} else {
+  const _root = createRoot(rootEl);
+  _root.render(<App />);
+  (window as any).__REACT_ROOT = _root;
+}
