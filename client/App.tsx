@@ -15,7 +15,7 @@ const queryClient = new QueryClient();
 
 const App = () => {
   useEffect(() => {
-    document.title = "Nathan Johnson — Portfolio & Contact";
+    document.title = "T342guy — Portfolio & Contact";
   }, []);
 
   return (
