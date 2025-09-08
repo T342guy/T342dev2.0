@@ -63,7 +63,7 @@ export default function Index() {
             <p className="mt-2 text-muted-foreground">A bit of background, Is it interesting? I have no clue.</p>
           </div>
           <div className="md:col-span-2 space-y-4 text-muted-foreground">
-            <p>I am T342! You probably already knew that part. </p>
+            <p>I am T342! But my username is T342guy on almost all platforms!</p>
             <p>Im just some random dude strafing around the internet! Who woulda thought?</p>
             <p>I am an avid gamer, hobby programmer, and whatever else my ADHD says is the next new revolutionary thing around</p>
           </div>
