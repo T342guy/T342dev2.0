@@ -28,8 +28,8 @@ export default function Footer() {
       </div>
       <div className="border-t">
         <div className="container flex flex-col items-center justify-between gap-4 py-6 text-xs text-muted-foreground md:flex-row">
-          <p>© 2025 Nathan J. All rights reserved.</p>
-          <p className="inline-flex items-center gap-2"><MapPin className="size-3"/> Based in Austin, TX</p>
+          <p>© 2025 T342guy. All rights reserved.</p>
+          <p className="inline-flex items-center gap-2"><MapPin className="size-3"/> Based in my house and brainlessvilla</p>
         </div>
       </div>
     </footer>
