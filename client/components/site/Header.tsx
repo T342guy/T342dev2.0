@@ -1,4 +1,4 @@
-import { Mail, Phone, Calendar, MessageCircle } from "lucide-react";
+import { Mail, MessageCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
@@ -19,14 +19,8 @@ export default function Header() {
           <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground">Contact</a>
         </nav>
         <div className="flex items-center gap-2">
-          <a href="mailto:nathan@nathanjohnson.dev" className="hidden md:block">
+          <a href="mailto:T342guy@proton.me" className="hidden md:block">
             <Button variant="ghost" className="gap-2"><Mail className="size-4"/> Email</Button>
-          </a>
-          <a href="tel:+15551234567" className="hidden md:block">
-            <Button variant="ghost" className="gap-2"><Phone className="size-4"/> Call</Button>
-          </a>
-          <a href="https://cal.com/nathanjohnson" target="_blank" rel="noreferrer">
-            <Button className="gap-2"><Calendar className="size-4"/> Book a call</Button>
           </a>
           <a href="#contact" className="md:hidden">
             <Button variant="secondary" className="gap-2"><MessageCircle className="size-4"/> Contact</Button>
