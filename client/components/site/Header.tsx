@@ -32,18 +32,6 @@ export default function Header() {
             Accounts
           </a>
         </nav>
-        <div className="flex items-center gap-2">
-          <div className="hidden md:block">
-            <Button variant="ghost" className="gap-2">
-              <Mail className="size-4" /> Email
-            </Button>
-          </div>
-          <div className="hidden">
-            <Button variant="secondary" className="gap-2">
-              <MessageCircle className="size-4" /> Contact
-            </Button>
-          </div>
-        </div>
       </div>
     </header>
   );
