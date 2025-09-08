@@ -30,9 +30,7 @@ export default function Index() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background to-background">
-      <Header />
-      <main>
+    <main className="bg-gradient-to-b from-background to-background">
         {/* Hero */}
         <section className="relative overflow-hidden">
           <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(50%_50%_at_50%_0%,hsl(var(--primary)/.18)_0%,transparent_60%)]" />
@@ -188,9 +186,6 @@ export default function Index() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
-      <ContactDock />
-    </div>
+    </main>
   );
 }
