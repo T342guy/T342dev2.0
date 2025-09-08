@@ -17,6 +17,7 @@ export default function Header() {
           <a href="#about" className="text-sm text-muted-foreground hover:text-foreground">About</a>
           <a href="#work" className="text-sm text-muted-foreground hover:text-foreground">Work</a>
           <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground">Contact</a>
+          <a href="#accounts" className="text-sm text-muted-foreground hover:text-foreground">Accounts</a>
         </nav>
         <div className="flex items-center gap-2">
           <a href="mailto:T342guy@proton.me" className="hidden md:block">
