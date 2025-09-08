@@ -87,7 +87,7 @@ export default function Index() {
               </div>
             </div>
 
-            <div className="grid gap-6 md:grid-cols-3">
+            <div className="grid gap-6 md:grid-cols-1">
               <Card>
                 <CardHeader>
                   <CardTitle className="inline-flex items-center gap-2"><Mail className="size-5 text-primary"/> Email</CardTitle>
@@ -97,25 +97,32 @@ export default function Index() {
                   <a href="mailto:T342guy@proton.me" className="block text-sm font-medium hover:underline">T342guy@proton.me</a>
                 </CardContent>
               </Card>
-              <Card>
-                <CardHeader>
-                  <CardTitle className="inline-flex items-center gap-2"><Github className="size-5 text-primary"/> GitHub</CardTitle>
-                  <CardDescription>Code, projects, and contributions.</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <a href="https://github.com/nathanj" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">github.com/nathanj <ArrowRight className="size-4"/></a>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardHeader>
-                  <CardTitle className="inline-flex items-center gap-2"><Twitter className="size-5 text-primary"/> X (Twitter)</CardTitle>
-                  <CardDescription>DMs are open for quick questions.</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <a href="https://x.com/nathanjohnson" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">x.com/nathanjohnson <ArrowRight className="size-4"/></a>
-                </CardContent>
-              </Card>
             </div>
+
+            {/* Accounts section (separate) */}
+            <section id="accounts" className="mt-12">
+              <h3 className="text-lg font-semibold mb-4">Accounts</h3>
+              <div className="grid gap-6 md:grid-cols-2">
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="inline-flex items-center gap-2"><Github className="size-5 text-primary"/> GitHub</CardTitle>
+                    <CardDescription>Code, projects, and contributions.</CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <a href="https://github.com/nathanj" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">github.com/nathanj <ArrowRight className="size-4"/></a>
+                  </CardContent>
+                </Card>
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="inline-flex items-center gap-2"><Twitter className="size-5 text-primary"/> X (Twitter)</CardTitle>
+                    <CardDescription>DMs are open for quick questions.</CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <a href="https://x.com/nathanjohnson" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">x.com/nathanjohnson <ArrowRight className="size-4"/></a>
+                  </CardContent>
+                </Card>
+              </div>
+            </section>
 
             <div className="mt-10">
               <div className="rounded-xl border bg-card p-6 max-w-lg">
