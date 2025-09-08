@@ -9,8 +9,8 @@ export default function Header() {
         <Link to="/" className="group inline-flex items-center gap-3">
           <div className="h-9 w-9 rounded-md bg-gradient-to-br from-primary to-accent shadow ring-1 ring-black/5" />
           <div className="flex flex-col leading-tight">
-            <span className="text-base font-bold tracking-tight">Nathan Johnson</span>
-            <span className="text-xs text-muted-foreground">Designer • Developer</span>
+            <span className="text-base font-bold tracking-tight">T342</span>
+            <span className="text-xs text-muted-foreground">How do I fix that now?</span>
           </div>
         </Link>
         <nav className="hidden items-center gap-6 md:flex">
