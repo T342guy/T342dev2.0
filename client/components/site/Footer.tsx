@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="border-t bg-background">
       <div className="container grid gap-8 py-10 md:grid-cols-3">
         <div>
-          <div className="mb-3 text-lg font-semibold">Nathan Johnson</div>
+          <div className="mb-3 text-lg font-semibold">T342</div>
           <p className="max-w-sm text-sm text-muted-foreground">A random dude around the internet.</p>
         </div>
         <div>
