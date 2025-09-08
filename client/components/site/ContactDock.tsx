@@ -39,8 +39,6 @@ export default function ContactDock() {
           <div className="mt-4 space-y-4">
             <div className="grid grid-cols-1 gap-2">
               <a href="mailto:T342guy@proton.me" className="inline-flex items-center justify-center gap-2 rounded-md border p-3 hover:bg-accent"><Mail className="size-4"/> Email</a>
-              <a href="https://github.com/nathanj" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 rounded-md border p-3 hover:bg-accent"><Github className="size-4"/> GitHub</a>
-              <a href="https://x.com/nathanjohnson" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 rounded-md border p-3 hover:bg-accent"><Twitter className="size-4"/> X</a>
             </div>
             <p className="text-sm text-muted-foreground">Prefer email? Send a message to <a className="underline" href="mailto:T342guy@proton.me">T342guy@proton.me</a>.</p>
           </div>
