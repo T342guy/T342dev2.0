@@ -37,8 +37,8 @@ export default function Index() {
           <div className="container grid gap-10 py-16 md:grid-cols-2 md:gap-16 md:py-24">
             <div className="flex flex-col justify-center">
               <p className="mb-3 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-primary"><span className="h-2 w-2 rounded-full bg-primary"/> Available for work</p>
-              <h1 className="text-balance text-4xl font-extrabold tracking-tight md:text-6xl">Nathan Johnson — building thoughtful products for the web</h1>
-              <p className="mt-4 max-w-prose text-muted-foreground md:text-lg">I design and develop high‑quality websites and digital experiences that are fast, accessible, and beautiful. Let’s create something exceptional together.</p>
+              <h1 className="text-balance text-4xl font-extrabold tracking-tight md:text-6xl">Hey there! I am T342!</h1>
+              <p className="mt-4 max-w-prose text-muted-foreground md:text-lg">Hey hey! Nice to see you poppin by my website!</p>
               <div className="mt-6 flex flex-wrap items-center gap-3">
                 <a href="mailto:T342guy@proton.me"><Button size="lg" className="gap-2"><Mail className="size-4"/> Email me</Button></a>
               </div>
@@ -52,7 +52,7 @@ export default function Index() {
                 <div className="h-full w-full rounded-2xl bg-background p-6">
                   <div className="flex h-full w-full flex-col items-center justify-center rounded-xl border bg-card text-center">
                     <span className="text-7xl">👋</span>
-                    <p className="mt-2 text-sm text-muted-foreground">Hi, I\'m Nathan</p>
+                    <p className="mt-2 text-sm text-muted-foreground">Hi, I\'m T342</p>
                     <p className="text-lg font-semibold">Designer & Engineer</p>
                   </div>
                 </div>
@@ -64,12 +64,13 @@ export default function Index() {
         {/* About */}
         <section id="about" className="container grid gap-8 py-16 md:grid-cols-3 md:gap-12 md:py-24">
           <div className="md:col-span-1">
-            <h2 className="text-2xl font-bold tracking-tight md:text-3xl">About Nathan</h2>
-            <p className="mt-2 text-muted-foreground">A bit of background and what I do.</p>
+            <h2 className="text-2xl font-bold tracking-tight md:text-3xl">About T342</h2>
+            <p className="mt-2 text-muted-foreground">A bit of background, Is it interesting? I have no clue.</p>
           </div>
           <div className="md:col-span-2 space-y-4 text-muted-foreground">
-            <p>I build end‑to‑end web products: from user research and design systems to performant frontends and reliable backends. I obsess over details and ship with quality.</p>
-            <p>My toolkit includes React, TypeScript, Node/Express, Tailwind CSS, and modern tooling. I care deeply about accessibility, responsiveness, and maintainability.</p>
+            <p>I am T342! You probably already knew that part. </p>
+            <p>Im just some random dude strafing around the internet! Who woulda thought?</p>
+            <p>I am an avid gamer, hobby programmer, and whatever else my ADHD says is the next new revolutionary thing around</p>
           </div>
         </section>
 
