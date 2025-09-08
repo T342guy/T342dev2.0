@@ -22,7 +22,7 @@ export default function Footer() {
             <li><a className="inline-flex items-center gap-2 hover:text-foreground" href="https://steamcommunity.com/id/T342guy" target="_blank" rel="noreferrer"><Gamepad className="size-4"/> steamcommunity.com/id/T342guy</a></li>
             <li><a className="inline-flex items-center gap-2 hover:text-foreground" href="https://www.youtube.com/channel/UCC2PYQVdiFAwE5927TPuVlA" target="_blank" rel="noreferrer"><Youtube className="size-4"/> youtube.com/channel/UCC2PYQVdiFAwE5927TPuVlA</a></li>
             <li><a className="inline-flex items-center gap-2 hover:text-foreground" href="https://www.twitch.tv/T342guy" target="_blank" rel="noreferrer"><Twitch className="size-4"/> twitch.tv/T342guy</a></li>
-            <li><a className="inline-flex items-center gap-2 hover:text-foreground" href="https://www.reddit.com/user/T342games" target="_blank" rel="noreferrer"><Reddit className="size-4"/> reddit.com/user/T342games</a></li>
+            <li><a className="inline-flex items-center gap-2 hover:text-foreground" href="https://www.reddit.com/user/T342games" target="_blank" rel="noreferrer"><Globe className="size-4"/> reddit.com/user/T342games</a></li>
           </ul>
         </div>
       </div>
