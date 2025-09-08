@@ -47,7 +47,7 @@ export default function Index() {
                 <div className="h-full w-full rounded-2xl bg-background p-6">
                   <div className="flex h-full w-full flex-col items-center justify-center rounded-xl border bg-card text-center">
                     <span className="text-7xl">👋</span>
-                    <p className="mt-2 text-sm text-muted-foreground">Hi, I\'m T342</p>
+                    <p className="mt-2 text-sm text-muted-foreground">Hey there, I\'m T342!</p>
                     <p className="text-lg font-semibold">Designer & Engineer</p>
                   </div>
                 </div>
