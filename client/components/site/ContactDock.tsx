@@ -1,8 +1,6 @@
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, MessageCircle, MessageSquare, Send, Calendar, Linkedin, Github, Twitter } from "lucide-react";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
+import { Mail, Github, Twitter } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 
@@ -39,23 +37,12 @@ export default function ContactDock() {
             <SheetTitle>Get in touch</SheetTitle>
           </SheetHeader>
           <div className="mt-4 space-y-4">
-            <div className="grid grid-cols-2 gap-2">
-              <a href="mailto:nathan@nathanjohnson.dev" className="inline-flex items-center justify-center gap-2 rounded-md border p-3 hover:bg-accent"><Mail className="size-4"/> Email</a>
-              <a href="tel:+15551234567" className="inline-flex items-center justify-center gap-2 rounded-md border p-3 hover:bg-accent"><Phone className="size-4"/> Call</a>
-              <a href="sms:+15551234567" className="inline-flex items-center justify-center gap-2 rounded-md border p-3 hover:bg-accent"><MessageSquare className="size-4"/> Text</a>
-              <a href="https://wa.me/15551234567" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 rounded-md border p-3 hover:bg-accent"><MessageCircle className="size-4"/> WhatsApp</a>
-              <a href="https://cal.com/nathanjohnson" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 rounded-md border p-3 hover:bg-accent"><Calendar className="size-4"/> Book</a>
-              <a href="https://linkedin.com/in/nathanjohnson" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 rounded-md border p-3 hover:bg-accent"><Linkedin className="size-4"/> LinkedIn</a>
+            <div className="grid grid-cols-1 gap-2">
+              <a href="mailto:T342guy@proton.me" className="inline-flex items-center justify-center gap-2 rounded-md border p-3 hover:bg-accent"><Mail className="size-4"/> Email</a>
               <a href="https://github.com/nathanj" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 rounded-md border p-3 hover:bg-accent"><Github className="size-4"/> GitHub</a>
               <a href="https://x.com/nathanjohnson" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 rounded-md border p-3 hover:bg-accent"><Twitter className="size-4"/> X</a>
             </div>
-            <form onSubmit={onSubmit} className="space-y-3">
-              <input type="hidden" name="source" value="contact-dock" />
-              <Input name="name" placeholder="Your name" required />
-              <Input type="email" name="email" placeholder="Email" required />
-              <Textarea name="message" placeholder="Message" required />
-              <Button type="submit" className="w-full" disabled={loading}><Send className="size-4"/> {loading ? "Sending..." : "Send message"}</Button>
-            </form>
+            <p className="text-sm text-muted-foreground">Prefer email? Send a message to <a className="underline" href="mailto:T342guy@proton.me">T342guy@proton.me</a>.</p>
           </div>
         </SheetContent>
       </Sheet>
